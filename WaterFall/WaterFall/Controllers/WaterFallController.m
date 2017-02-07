@@ -34,7 +34,7 @@
     
     [super viewDidLoad];
     self.imageArr = [NSMutableArray new];
-    for (int i = 1; i < 50; i++) {
+    for (int i = 1; i < 17; i++) {
         UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"%d.jpg", i]];
         ImageModel *model = [ImageModel new];
         model.sourceImage = image;
